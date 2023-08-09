@@ -11,5 +11,9 @@ export const Padrao = createGlobalStyle`
 ` 
 
 export const cores = {
-    
+    primaria: "#FFA8D2",
+    secundaria: "#FFF2A0",
+    terceraria: "#E3DCC0",
+    branco: "#FFFF", 
+    preto: "#0000",
 }
