@@ -1,5 +1,5 @@
 import * as S from "./style"
-import logo from "../../images/bolo.png"
+import logo from "../../images/icon.png"
 
 export function Header(){
     return(

@@ -7,6 +7,7 @@ export const Padrao = createGlobalStyle`
         outline: 0rem;
         border: 0rem;
         box-sizing: border-box;
+        font-family: "Galada";
     }
 ` 
 
