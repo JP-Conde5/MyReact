@@ -1,3 +1,3 @@
 export { Home as PageHome } from "./Home"
-export { Receitas as PageReceitas } from "./Receitas"
+export { Revenues as PageRevenues } from "./Revenues"
 export { Layout as PageLayout } from "./Layout"
