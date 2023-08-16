@@ -11,12 +11,17 @@ export const Home = styled.section`
         justify-content: center;
         align-items: center;
         img{
-            width: 80%;
+            width: 28.75rem;
+            height: 30.625rem;
         }
         article{
             width: 80%;
+            font-size: 2.25rem;
             h1{
                 color: ${cores.primaria};
+            }
+            p{
+                color: ${cores.branco}
             }
         }
     }
