@@ -5,11 +5,12 @@ export const Home = styled.section`
     width: 100%;
     display: flex;
     justify-content: center;
+    alingn-items: center;
     div{
         width: 50%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        padding-top: 8rem;
         img{
             width: 28.75rem;
             height: 30.625rem;

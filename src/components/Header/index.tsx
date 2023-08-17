@@ -14,10 +14,10 @@ export function Header(){
                 <nav>
                     <ul>
                         <li>
-                            <a href="">Home</a>    
+                            <a href="/">Home</a>    
                         </li>
                         <li>
-                            <a href="">Receitas</a>
+                            <a href="/revenues">Receitas</a>
                         </li>
                     </ul>
                 </nav>

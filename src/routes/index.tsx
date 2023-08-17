@@ -6,7 +6,7 @@ export function Rout(){
         <Routes>
             <Route path="/" element={<PageLayout/>}>
                 <Route path="" element={<PageHome/>}/>
-                <Route path="receitas" element={<PageRevenues/>} />
+                <Route path="revenues" element={<PageRevenues/>} />
             </Route>
         </Routes>
     )    

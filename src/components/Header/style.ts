@@ -46,8 +46,9 @@ export const Header = styled.header`
                 width: 100%;
                 height: 100%;
                 display: flex;
-                
+                text-align: center;
                 a{
+                    margin-top: 1.5rem;
                     width: 100%;
                     text-decoration: none;
                     color: ${cores.branco};
