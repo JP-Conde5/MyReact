@@ -5,7 +5,7 @@ export const Home = styled.section`
     width: 100%;
     display: flex;
     justify-content: center;
-    alingn-items: center;
+    align-items: center;
     div{
         width: 50%;
         display: flex;
@@ -19,9 +19,11 @@ export const Home = styled.section`
             width: 80%;
             font-size: 2.25rem;
             h1{
+                text-align: center;
                 color: ${cores.primaria};
             }
             p{
+                text-align: justify;
                 color: ${cores.branco}
             }
         }
