@@ -59,7 +59,12 @@ export const Header = styled.header`
                 }
             }
         }
-    }    
+    }
+    @media(max-width: 1010px){
+        h1{
+            display: none;
+        }
+    }
 `    
 export const Fundo = styled.div`
     height: 6.75rem;

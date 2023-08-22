@@ -20,4 +20,7 @@ export const Aside = styled.aside`
        font-size: 2.25rem;
        color: ${cores.primaria}; 
     }
+    @media(max-width: 1024px){
+        width: calc(0.7*32.063rem);
+    }
 `
