@@ -2,6 +2,15 @@ import styled from "styled-components"
 import { cores } from "../../style/GlobalStyle"
 
 export const Header = styled.header`
+/*Esconderemos a ul*/
+.hidden ul {
+    position: absolute;
+
+}
+.hidden {
+       /*display:none; */
+        backdrop-filter: blur(5px);
+    }
     height: 5.625rem;
     width: 100%;
     background-color: ${cores.primaria};
@@ -65,6 +74,72 @@ export const Header = styled.header`
             display: none;
         }
     }
+
+    @media(max-width:800px) {
+
+/*menu vai desaparecer*/
+nav {
+    position:fixed;
+    width: 100%;
+    justify-content: right;
+    height:10rem;
+    top:;
+
+
+}
+
+nav ul {
+    flex-wrap: wrap;
+    
+    background-color: #4c4c4cca ;
+    height: 100%;
+    width: 100%;
+
+}
+nav ul li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        height: calc(100%/3);
+        border-top: 0.1px solid ;
+        display: flex;
+        backdrop-filter:blur(5px);
+    }
+
+/*Esconderemos a ul*/
+.hidden ul {
+    position: absolute;
+
+}
+.hidden {
+       display:none; 
+        backdrop-filter: blur(5px);
+    }
+  nav{
+    display:block;
+  }
+}
+@media(max-width:1500px){
+      nav ul a{
+        font-size:1.2rem;
+      }
+  }
+  @media (max-width: 1000px) {
+    div.logo img{
+      height:auto;
+      width:60%;
+    }
+  }
+  @media (max-width: 600px){
+    div.logo img{
+      width:100%;
+    }
+    div.logo{
+      width:60%;
+    }
+  }
+
+
 `    
 export const Fundo = styled.div`
     height: 6.75rem;
