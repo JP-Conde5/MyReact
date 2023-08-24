@@ -1,6 +1,6 @@
 import * as S from "./style"
 import { ComponentMenu } from "../index"
-import logo from "../../image"
+import logo from "../../images/icon.png"
 
 import React, { useState } from "react";
 

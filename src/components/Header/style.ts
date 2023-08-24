@@ -2,6 +2,8 @@ import styled from "styled-components"
 import { cores } from "../../style/GlobalStyle"
 
 export const Header = styled.header`
+height:100%;
+
 /*Esconderemos a ul*/
 .hidden ul {
     position: absolute;
@@ -20,8 +22,9 @@ export const Header = styled.header`
     border-bottom-right-radius: 7%;
     display: flex;
     align-items: center;
+    justify-content:space-between;
     div{
-        width: 50%;
+        /* width: 50%; */
         display: flex;
         align-items: center;
         justify-content: start;
@@ -69,7 +72,7 @@ export const Header = styled.header`
             }
         }
     }
-    @media(max-width: 1010px){
+    @media(max-width: 1100px){
         h1{
             display: none;
         }
@@ -79,11 +82,11 @@ export const Header = styled.header`
 
 /*menu vai desaparecer*/
 nav {
-    position:fixed;
+    position:absolute;
     width: 100%;
     justify-content: right;
     height:10rem;
-    top:;
+    top:5.625rem;
 
 
 }
@@ -100,10 +103,13 @@ nav ul li {
         width: 100%;
         text-align: center;
         display: block;
-        height: calc(100%/3);
+        height: calc(100%/2);
         border-top: 0.1px solid ;
         display: flex;
         backdrop-filter:blur(5px);
+    }
+    nav ul li a{
+      display:inline-block;
     }
 
 /*Esconderemos a ul*/
@@ -142,7 +148,6 @@ nav ul li {
 
 `    
 export const Fundo = styled.div`
-    height: 6.75rem;
     width: 100%;
     background-color: ${cores.secundaria};
     border-bottom: 1.125rem ${cores.secundaria} solid;
